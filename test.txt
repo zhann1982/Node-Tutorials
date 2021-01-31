@@ -1,0 +1,12 @@
+ The **storeAs()** leads to the folder you'll be pushing the image to, for example
+```storage/app/photos/
+``` . Then you use the **$fileStore** variable to store in the database.
+
+STEP THREE: Fetching the image
+
+To fetch the image, call on the column name on the database like **photo** then use this line of code
+
+```$photo = $user['photo'];
+        $path = "https://sh-ei.org/admin/api/storage/app/photos/" . $photo;
+```
+You can edit it to call on the current **path** and **column**.
