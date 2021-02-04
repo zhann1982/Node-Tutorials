@@ -1,0 +1,29 @@
+{
+  "name": "node-tutorials",
+  "version": "1.0.0",
+  "description": "node tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhann1982/Node-Tutorials.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "@Zhann1982",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhann1982/Node-Tutorials/issues"
+  },
+  "homepage": "https://github.com/zhann1982/Node-Tutorials#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
